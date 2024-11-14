@@ -1,0 +1,347 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #050507;
+  color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+* a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.log{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    
+}
+.logo{
+    padding-top: 23px;
+    list-style: none;
+}
+a>span{
+    color: #079211;
+}
+.ulll{
+    display: flex;
+    gap: 38px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+    list-style: none;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    padding-top: 18px;
+}
+.btn1{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    border: 1px solid #079211;
+    width:88px;
+    height: 38px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+}
+
+.sim{
+    font-family: 'Inter';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #079211;
+    padding-top: 100px;
+}
+.text1 > h1{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 94px;
+    padding-bottom: 38px;
+}
+.h1{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 94px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #808080;
+    width: 550px;
+}
+.btns{
+    display: flex;
+    gap: 38px;
+    margin-top: 58px;
+}
+.btn2{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color:#079211;
+    width:136px;
+    height: 38px;
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+.btn3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width:176px;
+    height: 38px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.hiro1{
+    margin-bottom: 100px;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+}
+.tex1 h3{
+    font-family: 'Inter';
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 470px;
+}
+.ser{
+    color: #079211;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    
+}
+.tex2{
+    width: 360px;
+}
+.tex2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #808080;
+}
+.hiro2{
+    margin-bottom:90px;
+}
+.bloks{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.blok{
+    width:336px ;
+    height:360px;
+    background-color: #313131;
+    border-bottom: 6px solid #079211;
+}
+.blok>img{
+    padding-top: 68px;
+    padding-left: 25px;
+}
+.blok>h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 46px;
+    padding-left: 25px;
+}
+.blok>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    width: 330px;
+    padding-top: 18px;
+    padding-left: 25px;
+}
+.hiro3{
+    margin-bottom: 100px;
+}
+.texx>h3{
+    font-family: 'Inter';
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 470px;
+    padding-top: 16px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn5{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    border: 1px solid #079211;
+    width:140px;
+    height: 38px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+}
+.hiro4{
+    margin-bottom: 90px;
+}
+.bg-hiro{
+    background-color: #313131;
+    padding-bottom: 110px;
+    margin-bottom: 90px;
+}
+.box>h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 38px;
+    padding-bottom: 16px;
+}
+.box>span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #079211;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.text6{
+    text-align: center;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    padding-bottom: 48px;
+    padding-top: 37px;
+    
+}
+.txx{
+    padding-left: 0px;
+    
+}
+.text6>span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #079211;
+    padding-bottom:16px ;
+}
+.text6>h2{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+}
+small{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 30px;
+    color: #808080;
+}
+.hiro6{
+    margin-bottom: 160px;
+}
+
+.text-info>h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.99px;
+}
+.text-info>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 16px;
+}
+.tex7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn6{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color:#079211;
+    width:136px;
+    height: 38px;
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+.hiro7{
+    margin-bottom: 63px;
+    background-color: #0A0A0F;
+    height: 213px;
+    width: 100%;
+}   
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 114px;
+}
+.hom1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    padding-bottom: 26px;
+}
+.ull>li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.ull>li>a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #313131;
+}
+footer{
+    width: 100%;
+    height: 258px;
+}
